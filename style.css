@@ -1,0 +1,104 @@
+*{
+    font-size:20px;
+    font-family:playfair display;
+    margin:0px;
+    padding: 0px;
+    scroll-behavior:smooth;
+   list-style: none;
+   text-decoration: none;
+   transition:0.5s linear;
+}
+
+body{
+    background-image: url(pexels-fauxels-3184611.jpg);
+    margin:0;
+    padding:0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+    
+.navbar ul{
+
+    display: flex;
+ list-style-type:none; 
+ background-color: #131222;
+ padding: 0px;
+ margin: 0;
+ display:flex;
+overflow:hidden ;
+ 
+}
+.navbar ul li {
+
+    padding:0;
+    margin: 20px; 
+}
+
+.navbar ul li a {
+     color:#FFFFFF;
+    font-size:25px;
+     display: block;
+     text-align: center;
+     border-radius: 100px;
+}
+
+ a{
+    color: #FFFFFF;
+ }
+.navbar ul li a:hover{
+    
+    color: #FFFFFF;
+    font-size: 18px;
+    transition: 0.3s ease; 
+    color: #10a37f;
+
+}
+h1{
+    padding:300px 150px 10px  ;
+    font-family: calibri;
+    font-size:50px;
+}
+p{
+    padding:0px 150px;
+
+
+}
+.btn1{margin: 10px 20px 10px 150px;
+         border:none;
+    background-color: #131222;
+    background-color: ;
+    color:#FFFFFF;
+    padding:20px 50px;
+    text-align:center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;}
+    .btn1:hover{
+         background-color: #FFFFFF;
+         color:black;
+
+    }
+    .btn{
+         border:none;
+    background-color: #131222;
+    background-color: ;
+    color:#FFFFFF;
+    padding:20px 50px;
+    text-align:center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;}
+    
+.btn:hover{
+    background-color: #FFFFFF;
+    color:black;
+}
+
+
+
+
